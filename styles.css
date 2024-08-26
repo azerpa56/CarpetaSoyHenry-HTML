@@ -1,0 +1,126 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000000;
+  color: #ddd041;
+  margin: 20px;
+}
+
+/* Header */
+
+header{
+  width: 98%;
+  height: 10%;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header h1{
+  width: 30%;
+  height: auto;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+/* Nav */
+header nav{
+  width: 80%;
+  border-left: 1px solid white;
+}
+
+header nav ul{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: #ddd041;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 1s ease;
+}
+
+header nav ul li a:hover{
+  color: white;
+}
+
+/* Main */
+
+main{
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section{
+  width: 80%;
+  height: 50%;
+}
+
+#territory{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#territory h2{
+  width: 100%;
+  text-align: center;
+}
+
+#territory p{
+  width: 100%;
+  text-align: right;
+}
+
+#territory img{
+  width: 30%;
+}
+
+#raptor{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#raptor h2{
+  width: 100%;
+  text-align: center;
+}
+
+#raptor p{
+  width: 100%;
+  text-align: left;
+}
+
+#raptor img{
+  width: 30%;
+}
+/* footer */
+
+footer{
+  width: 98%;
+  height: 20%;
+  border-top: 1px solid rgb(255, 255, 255);
+  color: #ddd041;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
